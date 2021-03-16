@@ -85,11 +85,3 @@ module.exports = function repeater(str, options) {
     return str.substring(0, str.length - separ.length - strin.length);
   }
 };
-  
-
-
-
-
-// console.log (repeater(9.234, { repeatTimes: 4, separator: '||', addition: {a: 5}, additionRepeatTimes: 3, additionSeparator: '&&' }))
-
-// '9.234[object Object]&&[object Object]&&[object Object]||9.234[object Object]&&[object Object]&&[object Object]||9.234[object Object]&&[object Object]&&[object Object]||9.234[object Object]&&[object Object]&&[object Object]'
